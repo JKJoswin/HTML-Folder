@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Validation Using API
+    </title>
+</head>
+
+<body>
+    <input type="number" id="id1" min="100" max="300">
+    <button onclick="validate()">
+        Submit
+    </button>
+    <p id="result"></p>
+    <script>
+        function validate() {
+            var inpobj = document.getElementById("id1");
+            if (!inpobj.checkValidity()) {
+                document.getElementById("result").innerHTML = inpobj.validationMessage;
+            }
+            else {
+                document.getElementById("result").innerHTML = "Input Ok";
+            }
+        }
+    </script>
+</body>
+
+</html>
