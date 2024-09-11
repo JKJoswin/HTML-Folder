@@ -1,0 +1,15 @@
+#social-media {
+    background-color: cadetblue;
+}
+
+.media-link {
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid rgb(17, 0, 255);
+    border-radius: 0.5rem;
+}
+
+body {
+    background-color: darkcyan;
+}
