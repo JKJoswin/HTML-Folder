@@ -11,7 +11,6 @@ function printOutput(num) {
     if (num == "") {
         document.getElementById("output-value").innerText = num;
     } else {
-
         document.getElementById("output-value").innerText = getFormattedNumber(num);
     }
 }
